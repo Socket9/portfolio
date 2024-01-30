@@ -28,7 +28,7 @@
         }
 
         & p {
-		color: var(--text-primary-color);
+            color: var(--text-primary-color);
             margin-bottom: 1rem;
             line-height: 1.55rem;
         }
@@ -40,7 +40,7 @@
 }
 
 @media (width < 500px) {
-	.about-me__content {
-		gap: 2rem;
-	}
+    .about-me__content {
+        gap: 2rem;
+    }
 }

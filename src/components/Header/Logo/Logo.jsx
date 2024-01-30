@@ -4,6 +4,6 @@ import './Logo.styles.css'
 const Logo = () => {
     const { isLightMode } = useThemeContext();
 
-    return <img src={isLightMode ? './images/logo-light.png' : './images/logo-dark.png'} alt="Socket portfolio logo" className="logo-img"/>;
+    return <img src={isLightMode ? './images/logo-light-1.png' : './images/logo-dark-1.png'} alt="Socket portfolio logo" className="logo-img"/>;
 };
 export default Logo;
