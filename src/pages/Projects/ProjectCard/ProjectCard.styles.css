@@ -28,7 +28,7 @@
             flex-wrap: wrap;
             align-items: center;
             gap: 0.5rem;
-            margin-bottom: 0.8rem;
+            margin-bottom: 1rem;
 
             & span {
                 padding: 0.1rem 0.6rem;
@@ -53,7 +53,7 @@
             & a {
                 text-decoration: none;
                 font-size: 1rem;
-                padding: 0.4rem .7rem;
+                padding: 0.4rem 0.8rem;
                 border-radius: 0.5rem;
                 font-weight: 600;
                 border: 2px solid var(--text-primary-color);
@@ -61,6 +61,7 @@
                 display: flex;
                 align-items: center;
                 gap: 0.4rem;
+                transition: all 0.1s;
             }
 
             & .repository {
@@ -69,7 +70,13 @@
             }
 
             & a:hover {
-                color: var(--primary-color);
+                background-color: var(--hover-secondary-color);
+                border-color: var(--hover-secondary-color);
+            }
+
+            & .repository:hover {
+                background-color: var(--hover-color);
+                border-color: var(--hover-color);
             }
         }
     }

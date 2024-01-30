@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className="about-me__content">
                 <div className="about-me__content-info">
                     <div className="title">
-                        <h4>Available to work</h4>
+                        <h4>Available to work.</h4>
                     </div>
                     {/* <p>
                         Empecé en el desarrollo como un simple pasatiempo, pero

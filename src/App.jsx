@@ -9,8 +9,8 @@ function App() {
         <ThemeContextProvider>
             <main>
                 <Home />
-                <Projects />
                 <AboutMe />
+                <Projects />
             </main>
             <Footer />
         </ThemeContextProvider>

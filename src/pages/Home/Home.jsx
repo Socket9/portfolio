@@ -35,11 +35,7 @@ const Home = () => {
                             <FaExternalLinkAlt />
                             Resume
                         </a>
-                        {/* <a href="#about-me" className="home__container-btn git" aria-label="Visit my GitHub profile">
-                            <PiGithubLogoFill />
-                            GitHub
-                        </a> */}
-                        <CopyTextToClipboard text="poncelucianod@gmail.com"/>
+                        <CopyTextToClipboard text="poncelucianod@gmail.com" />
                     </div>
                 </div>
 
