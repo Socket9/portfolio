@@ -1,0 +1,11 @@
+.toggle {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    display: flex;
+    cursor: pointer;
+    color: var(--text-primary-color);
+}
+.toggle:hover{
+    color: var(--hover-color);
+}

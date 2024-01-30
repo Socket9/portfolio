@@ -1,0 +1,46 @@
+.copy-container {
+    display: flex;
+    position: relative;
+
+    & .copy-container__text {
+        display: flex;
+        align-items: center;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.5rem;
+        border: 2px solid var(--border-secondary-color);
+        gap: 2rem;
+
+        & .copy-container__text-content {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: var(--text-primary-color);
+            font-weight: bold;
+
+            & p {
+                line-height: 1;
+            }
+        }
+        & button {
+            display: flex;
+            background: transparent;
+            border: none;
+		color: var(--text-primary-color);
+		cursor: pointer;
+		font-size: 1.3rem;
+        }
+    }
+
+    & span {
+	position: absolute;
+	background-color: var(--text-primary-color);
+	padding: .3rem .6rem;
+	line-height: 1;
+	font-size: .8rem;
+	border-radius: .5rem;
+	color: var(--bg-color);
+	top: 50%;
+	right: -4.5rem;
+	transform: translateY(-50%);
+    }
+}
