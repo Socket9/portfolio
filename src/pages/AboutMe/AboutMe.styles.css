@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
     gap: 4rem;
 
     & .about-me__content-info {
         display: flex;
         flex-direction: column;
-        max-width: 50ch;
 
         & .title {
             margin-bottom: 1rem;
@@ -29,8 +29,10 @@
 
         & p {
             color: var(--text-primary-color);
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             line-height: 1.55rem;
+            text-wrap: pretty;
+            max-width: 50ch;
         }
     }
 
@@ -39,8 +41,12 @@
     }
 }
 
-@media (width < 500px) {
+@media (width < 592px) {
     .about-me__content {
         gap: 2rem;
+
+        & .about-me__content-img {
+            display: none;
+        }
     }
 }

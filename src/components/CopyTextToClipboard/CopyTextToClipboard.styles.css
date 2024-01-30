@@ -44,3 +44,9 @@
 	transform: translateY(-50%);
     }
 }
+
+@media (width < 592px){
+    .copy-container__text {
+        height: 45px;
+    }
+}

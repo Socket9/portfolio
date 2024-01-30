@@ -28,7 +28,7 @@ const Home = () => {
                     <div className="home__container-buttons">
                         <a
                             href="./assets/Luciano_Ponce_CV.pdf"
-                            className="home__container-btn resume"
+                            className="home__container-btn "
                             target="_blank"
                             aria-label="Open resume PDF"
                         >

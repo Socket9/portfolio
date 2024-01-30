@@ -1,4 +1,5 @@
 import SectionContainer from "../../components/SectionContainer/SectionContainer";
+import Skills from "../../components/Skills/Skills";
 import "./AboutMe.styles.css";
 
 const AboutMe = () => {
@@ -29,10 +30,11 @@ const AboutMe = () => {
                     <p>
                         While I have experience in various personal projects, I
                         haven&apos;t had the chance to apply that knowledge in a
-                        corporate environment yet. Right now, I&apos;m seeking an
-                        opportunity that allows me to put into practice what I
-                        know and continue learning.
+                        corporate environment yet. Right now, I&apos;m seeking
+                        an opportunity that allows me to put into practice what
+                        I know and continue learning.
                     </p>
+                    <Skills />
                 </div>
                 <div className="about-me__content-img">
                     <img src="./images/home-img.svg" alt="" />

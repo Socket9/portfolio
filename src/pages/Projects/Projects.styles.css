@@ -5,3 +5,8 @@
     gap: 1.5rem;
     max-width: 1400px;
 }
+@media(width < 752px){
+    .projects__container{
+        gap: 3rem;
+    }
+}

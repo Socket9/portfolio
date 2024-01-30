@@ -5,6 +5,7 @@
 
 [data-theme="light"] {
     --bg-color: #f0f0f0;
+    --bg-secondary-color: #c5cbd3;
     --text-primary-color: #282f37;
     --text-secondary-color: #f0f0f0;
     --nav-text-color: #f0f0f0;
@@ -19,6 +20,7 @@
 
 [data-theme="dark"] {
     --bg-color: #282f37;
+    --bg-secondary-color: #56626e;
     --text-primary-color: #f0f0f0;
     --text-secondary-color: #282f37;
     --nav-text-color: #292929;
@@ -46,4 +48,9 @@ img {
 
 body {
     overflow-x: hidden;
+}
+
+::selection {
+    color: #282f37;
+    background: #cfd3d8;
 }

@@ -11,6 +11,12 @@
     }
 
     & a:hover {
-	color: var(--hover-color);
+        color: var(--hover-color);
+    }
+}
+
+@media (width < 592px) {
+    .header__nav-socials {
+        gap: 1rem;
     }
 }

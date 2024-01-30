@@ -1,0 +1,52 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: linear-gradient(
+        to right,
+        var(--bg-secondary-color) 30%,
+        var(--bg-color)
+    );
+    border-radius: 1rem;
+
+    & h4 {
+        font-size: 1.4rem;
+        line-height: 1;
+        color: var(--text-primary-color);
+        margin-bottom: 1.4rem;
+    }
+
+    & ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+
+        & li {
+            display: flex;
+            font-size: 2.5rem;
+            color: var(--text-primary-color);
+            transition: all 0.2s;
+        }
+    }
+}
+
+@media (width < 592px){
+    .skills {
+        width: 100%;
+
+        & ul {
+            gap: 1rem;
+
+            & li{
+                font-size: 1.9rem;
+            }
+        }
+    }
+
+    
+}
